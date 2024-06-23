@@ -1,1 +1,139 @@
-kontakt
+<!DOCTYPE html>
+
+<html lang="cs-cz">
+<head>
+    <meta name="description" content="Poradenství, servis a údržba motorové a elektrické techniky">
+    <meta name="keywords" content="poradenství, servis, údržba, motorové pily, sekačky, zahradní traktory, auta, motorky">
+    <meta name="author" content="Dan's Den">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dan' Den</title>
+
+    <!-- link for bootstrap elements and layouts
+        -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <!-- my own CUSTOM STYLES
+        -->
+    <style>
+        .nav-link {             /* větší písmo a barva pro navbar */
+    color: black; 
+    font-weight: bolder;
+    font-size: 1.3rem; 
+    padding: 1.2rem; 
+    }
+
+        .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+        }
+
+        .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <section id="navbar">
+      <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary rounded fixed-top" aria-label="Twelfth navbar example">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="index.html" class="nav-link active">Domů</a></li>
+              <li class="nav-item"><a href="reference.html" class="nav-link active">Reference</a></li>
+              <li class="nav-item"><a href="galerie.html" class="nav-link active">Galerie</a></li>
+              <li class="nav-item"><a href="dansden.html" class="nav-link active">Dan's Den</a></li>
+              <li class="nav-item"><a href="kontakt.html" class="nav-link active" aria-current="page">Kontakt</a></li>                  
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  
+    </section>    
+
+   
+    <!-- Title & Header-->
+    <section id="title">
+        <div class="container">
+            <div class="px-4 py-5 my-5 text-center">
+                <header>
+                    <h1 class="display-5 fw-bold text-body-emphasis">Dan's Den</h1>
+                    <h2 class="lead mb-4">Kontakt</h2>
+                </header>
+
+                  <div class="col-lg-6 mx-auto justify-content-center mt-5">
+                    
+                    <p class="lead mb-4"><span class="fw-bold">Adresa:</span> Pyskočely 174</p>
+                    <p class="lead mb-4"><span class="fw-bold">Mobil:</span> +420 123 456 789</p>
+                    <p class="lead mb-4"><span class="fw-bold">Email:</span> dansden@email.cz</p>
+                  </div>
+                
+            </div>
+
+        </div>
+        
+  
+    </section>
+
+    <!-- Map -->
+    <section id="location">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="map-responsive">
+                        <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d764.3554224588335!2d14.863661069892192!3d49.88049720501976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470c7a7a7026f6e1%3A0xde3c2025312c62e5!2sPysko%C4%8Dely%20174%2C%20281%2063%20Vlkan%C4%8Dice-Kostelec%20nad%20%C4%8Cern%C3%BDmi%20lesy!5e0!3m2!1sen!2scz!4v1719168441786!5m2!1sen!2scz"
+                                width="600" 
+                                height="450" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                aria-hidden="false" 
+                                tabindex="0">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+
+ 
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container mt-5">
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Domů</a></li>
+                <li class="nav-item"><a href="reference.html" class="nav-link px-2 text-body-secondary">Reference</a></li>
+                <li class="nav-item"><a href="galerie.html" class="nav-link px-2 text-body-secondary">Galerie</a></li>
+                <li class="nav-item"><a href="dansden.html" class="nav-link px-2 text-body-secondary">Dan's Den</a></li>
+                <li class="nav-item"><a href="kontakt.html" class="nav-link px-2 text-body-secondary">Kontakt</a></li>
+              </ul>
+              <a href="https://georgefreedom.com" class="text-center text-body-secondary d-block text-decoration-none">© 2024 GeorgeFreedom.com</a>
+            </footer>
+          </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
