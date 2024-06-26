@@ -21,6 +21,6 @@ Custom website built with Bootstrap, HTML, CSS & JS.
 
 ## Project Highlights
 
-- **Custom layout**: Demonstrates the use of elements and snippets to create custom web pages (from Bootstrap).
+- **Custom layout**: Demonstrates the use of friendly UX & meeting the client demands to create a custom website.
 - **Bootstrap use**: Shows the ability in using Bootstrap, HTML & CSS.
 - **Responsive web design**: Shows proficiency in creating a modern web that works on a variety of different size displays.
